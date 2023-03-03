@@ -4,13 +4,13 @@ public class Uri1003 {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
 
-        int primeiroValor = sc.nextInt();
-        int segundoValor = sc.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-        int prod = primeiroValor * segundoValor;
+        int soma = a + b;
 
-        System.out.println("PROD = " + prod);
-
+        System.out.println("SOMA = " + soma);
         sc.close();
+
     }
 }
